@@ -1,12 +1,16 @@
 package com.tasks;
 
+import java.util.Scanner;
+
 public class Task3 {
 public static void main(String[] args) {
-	int input = 876;
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the value: ");
+	int value = sc.nextInt();
 	int rev = 0;
 	
-	for(int rem = 0; input !=0 ; input = input/10) {
-		rem = input%10;
+	for(int rem = 0; value !=0 ; value = value/10) {
+		rem = (value %10 );
 		rev = rev *10+rem;
 		
 		
