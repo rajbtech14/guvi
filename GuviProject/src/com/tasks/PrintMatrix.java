@@ -2,7 +2,7 @@ package com.tasks;
 
 import java.util.Iterator;
 
-public class Task6 {
+public class PrintMatrix {
 
 	public static void main(String[] args) {
 		int row = 5;

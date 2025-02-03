@@ -2,7 +2,7 @@ package com.tasks;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class PositiveorNegative {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);

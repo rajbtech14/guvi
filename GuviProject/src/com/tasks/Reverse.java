@@ -2,7 +2,7 @@ package com.tasks;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class Reverse {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the value: ");

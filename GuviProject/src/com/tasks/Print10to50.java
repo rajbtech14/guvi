@@ -1,6 +1,6 @@
 package com.tasks;
 
-public class Task1 {
+public class Print10to50 {
 
 	public static void main(String[] args) {
 		int i=0;

@@ -2,7 +2,7 @@ package com.tasks;
 
 import java.util.Scanner;
 
-public class Task5 {
+public class Discount {
 public static void main(String[] args) {
 	
 	Scanner scan = new Scanner (System.in);

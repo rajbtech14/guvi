@@ -1,6 +1,6 @@
 package com.tasks;
 
-public class Task4 {
+public class Findsmallestnumber {
 	public static void main(String[] args) {
 		int arr [] = {87,45,23};
 		int min =arr[0];
