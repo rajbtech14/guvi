@@ -1,7 +1,5 @@
 package com.practices;
 
-import java.util.Iterator;
-
 public class Arraysearch {
 	public static void main(String[] args) {
 	int [] arr = {1,2,3,45,56,54,334,3432,43};
