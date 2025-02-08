@@ -6,6 +6,7 @@ public class Drivermain {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		//income tax
 		System.out.println("Enter the employee ID: ");
 		int empid = sc.nextInt();
 		System.out.println("Enter the employee name: ");
@@ -15,6 +16,7 @@ public class Drivermain {
 		Employee emp  = new Employee(empid, name, salary);
 		System.out.println("Income Tax : " + emp.calcultetax() );
 		
+		//sales Tax
 		System.out.println("Enter the product ID: ");
 		int pid = sc.nextInt();
 		System.out.println("Enter the price: ");
