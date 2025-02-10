@@ -1,7 +1,7 @@
 package com.oops1;
 
 public class Book {
-	
+	//data members
 	private int bookid;
 	private String title;
 	private String author;
