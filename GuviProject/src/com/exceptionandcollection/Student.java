@@ -17,20 +17,27 @@ public class Student {
 		this.age = age;
 		this.course = course;
 		
-		try {
-			if (age < 15 || age >21 ) {
-				throw new AgenotwithinRangeException("Age must be between 15 and 21");
-			}
-			if (!name.matches("[a-zA-Z]")) {
-				throw new NameNotValidException("Name should not contains special charecter");
-					
+			try {
+				if (age < 15 || age >21 ) {
+					throw new AgenotwithinRangeException("Age must be between 15 and 21");
+				
 				}
-		} catch (NameNotValidException e) {
-			e.getMessage();
-		}
-		}
-		
-
+			} catch (AgenotwithinRangeException e) {
+				e.getMessage();
+				System.out.println(e);
+			}
+			try {
+				if (!name.matches("[a-zA-Z]")) {
+					throw new NameNotValidException("Name should not contains special charecter");
+						
+					}
+			} catch (NameNotValidException e) {
+				
+				e.printStackTrace();
+				System.out.println(e);
+			}
+				
+	}
 	
 	public void display() {
 		System.out.println("Roll no: " + " " + rollno + "Name : " + " "+ name + "Age: " + " "+ age + "Course: " + " " + course );
@@ -41,17 +48,15 @@ public class Student {
 		System.out.println("Enter the rollno: ");
 		int rollno = sc.nextInt();
 		System.out.println("enter the age");
-		try {
-			throw new AgenotwithinRangeException("Enter the valid age");
-			//int age = sc.nextInt();
-		} catch (AgenotwithinRangeException e) {
-			e.printStackTrace();
-		}
+		String age = sc.next();
 		System.out.println("Enter the name");
 		String name = sc.next();
 		System.out.println("Enter the course");
 		String course = sc.next();
-		
+		Student st = new Student(rollno, name, rollno, course);
+		st.display();
+		System.out.println(st);
+		sc.close();
 	
 	}
 }
