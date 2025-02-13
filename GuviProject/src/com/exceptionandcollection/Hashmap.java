@@ -11,7 +11,7 @@ public class Hashmap {
 		
 		System.out.println(map);
 		
-		
+		//For each loop
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
 			String key = entry.getKey();
 			Integer val = entry.getValue();
