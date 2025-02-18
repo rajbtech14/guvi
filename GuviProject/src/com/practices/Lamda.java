@@ -19,6 +19,7 @@ public class Lamda {
 		}
 		
 		List<Object> arr1 = Arrays.asList("raja", "vinoth");
-		arr1.forEach((arr) -> System.out.println(arr1));
+		arr1.forEach(name -> System.out.println(name));
+		
 	}
 }
