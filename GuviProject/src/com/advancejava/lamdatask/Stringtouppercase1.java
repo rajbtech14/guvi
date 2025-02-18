@@ -16,6 +16,11 @@ public class Stringtouppercase1 {
 	
 	System.out.println(upper);
 	
+	for (String str : upper) {
+		System.out.println("Given value has changed to upper case : " + str);
+		
+	}
+	
 	}
 
 }
